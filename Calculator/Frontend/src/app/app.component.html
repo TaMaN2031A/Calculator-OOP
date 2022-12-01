@@ -1,0 +1,47 @@
+<h1>{{title}}</h1>
+<div class="main">
+  <form name="myForm">
+    <input type="text" name="textview" class="textview" value="{{equation}}">
+  </form>
+  <form name="myForm">
+    <input type="text" name="textview" class="textview" value="{{result}}">
+  </form>
+  <table>
+    <tr>
+      <td><input type="button" class="button" value="%" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="CE" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="C" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="&#9003;" (click)="reciever($event)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="&#185;/&#8339;" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="x&#178;" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="&#x221A;x" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="/" (click)="reciever($event)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="7" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="8" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="9" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="X" (click)="reciever($event)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="4" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="5" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="6" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="-" (click)="reciever($event)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="1" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="2" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="3" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="+" (click)="reciever($event)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="button" value="&#8723;" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="0" (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="." (click)="reciever($event)"></td>
+      <td><input type="button" class="button" value="=" (click)="reciever($event)"></td>
+    </tr>
+  </table>
+</div>
